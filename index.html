@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	<script>
+		document.documentElement.style.fontSize = window.innerWidth/375*50+'px';
+	</script>
+	<title>Document</title>
+</head>
+<body>
+	<div class="box" style="width: 200px;height: 200px;background: red"></div>
+</body>
+<script src="js/zepto.js"></script>
+<script>
+	$(function(){
+		$('.box').on('swipeLeft',function(){
+			console.log(123)
+		})
+	})
+	
+</script>
+</html>
